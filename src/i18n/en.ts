@@ -7,6 +7,7 @@ export const en = {
     'download settings': 'Download Settings',
     'export data': 'Export Presets',
     'go to collection': 'Collection',
+    'icon name': 'Name',
     'icon settings': 'Icon Settings',
     'icon shadow settings': 'Icon Shadow Settings',
     'import and export': 'Preset Import and Export',
