@@ -43,8 +43,8 @@ export const CollectionGrid = () => {
   const renderList = useDeferredValue(
     searchQuery
       ? list.filter((iconName) =>
-        iconName.toLowerCase().includes(searchQuery.toLowerCase()),
-      )
+          iconName.toLowerCase().includes(searchQuery.toLowerCase()),
+        )
       : list,
   )
 
@@ -95,7 +95,7 @@ export const CollectionGrid = () => {
         renderItem={(iconName) => {
           const icon = {
             name: `${prefix}:${iconName}`,
-            iconName: iconName,
+            iconName,
             collection: {
               prefix,
               ...info,
