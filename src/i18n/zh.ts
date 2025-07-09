@@ -7,6 +7,7 @@ export const zh = {
     'download settings': '下载设置',
     'export data': '导出预设',
     'go to collection': '集合',
+    'icon name': '名称',
     'icon settings': '图标设置',
     'icon shadow settings': '图标阴影设置',
     'import and export': '预设导入与导出',

@@ -66,6 +66,7 @@ export interface IconCollectionWithPrefix extends APIv2Collection {
 
 export interface PreviewIcon {
   collection: IconCollectionWithPrefix
+  iconName: string
   name: string
 }
 
