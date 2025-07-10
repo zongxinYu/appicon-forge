@@ -18,6 +18,7 @@ export const zh = {
     'text settings': '文字设置',
     'text shadow settings': '文字阴影设置',
     collections: {
+      name: '图集',
       author: '作者',
       count: '{{count}} 个图标',
       license: '许可',
