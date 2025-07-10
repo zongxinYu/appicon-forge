@@ -6,7 +6,7 @@ import type { ComponentsState } from './interface'
 
 export const useComponentsState = () => {
   const [state, setState] = useImmer<ComponentsState>({
-    imageSize: 1024,
+    imageSize: 128,
     isSeparateBorderRadius: false,
     previewIcon: null,
     searchQuery: '',
