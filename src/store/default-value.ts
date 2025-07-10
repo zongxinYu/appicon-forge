@@ -4,13 +4,13 @@ import { Gradient } from './constants'
 
 import type { Styles } from './interface'
 
-export const defaultBackgroundColor = '#F5F5F5'
-export const defaultBorderColor = '#D1D1D1'
+export const defaultBackgroundColor = '#FFFFFF00'
+export const defaultBorderColor = '#FFFFFF00'
 export const defaultTextColor = '#000'
-export const defaultShadowColor = 'rgba(0, 0, 0, 0.1)'
-export const defaultIconColor = '#333'
+export const defaultShadowColor = 'rgba(0, 0, 0, 0)'
+export const defaultIconColor = '#FFFFFF'
 export const defaultTextFont = 'sans-serif'
-export const defaultTextShadowAndIconShadowColor = 'rgba(0, 0, 0, 0.5)'
+export const defaultTextShadowAndIconShadowColor = 'rgba(0, 0, 0, 0)'
 
 export const defaultStyles: Styles = {
   backgroundColors: [createColor(defaultBackgroundColor)],
@@ -26,7 +26,7 @@ export const defaultStyles: Styles = {
   iconPerspective: [false, 0, 0],
   iconRotation: 0,
   iconShadow: [createShadow(defaultTextShadowAndIconShadowColor)],
-  iconSize: 128,
+  iconSize: 256,
   insetShadows: [createShadow(defaultShadowColor)],
   padding: true,
   shadows: [createShadow(defaultShadowColor)],

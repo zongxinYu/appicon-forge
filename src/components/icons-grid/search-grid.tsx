@@ -37,7 +37,7 @@ export const SearchGrid = ({ searchQuery }: SearchGridProps) => {
 
         return (
           <div className='flex flex-col items-center gap-2'>
-            <IconCard icon={icon} />
+            <IconCard className='scale-50' icon={icon} />
             <p className='truncate text-sm font-semibold capitalize'>{name}</p>
           </div>
         )
