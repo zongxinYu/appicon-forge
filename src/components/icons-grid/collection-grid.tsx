@@ -102,7 +102,14 @@ export const CollectionGrid = () => {
             },
           } as PreviewIcon
 
-          return <IconCard icon={icon} />
+          return (
+            <div className='flex flex-col items-center gap-2'>
+              <IconCard icon={icon} />
+              <p className='truncate text-sm font-semibold capitalize'>
+                {iconName}
+              </p>
+            </div>
+          )
         }}
       />
     </div>

@@ -18,6 +18,7 @@ export const en = {
     'text settings': 'Text Settings',
     'text shadow settings': 'Text Shadow Settings',
     collections: {
+      name: 'Collection',
       author: 'Author',
       count: '{{count}} icons',
       license: 'License',

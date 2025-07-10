@@ -65,10 +65,16 @@ export const PreviewDialog = () => {
           <div className='flex flex-col items-center justify-center gap-4 lg:gap-8'>
             <IconCard ref={iconCardRef} inPreview icon={previewIcon} />
             <div className='flex flex-col gap-2'>
-              <p className='flex items-center gap-4'>
+              <p className='flex items-center gap-4 capitalize'>
                 <span className='flex-1'>{t('icon name')}</span>
                 {previewIcon.iconName}
               </p>
+              {isOpenFromSearch && (
+                <p className='flex items-center gap-4'>
+                  <span className='flex-1'>{t('collections.name')}</span>
+                  {previewIcon.collection.name}
+                </p>
+              )}
               <p className='flex items-center gap-4'>
                 <span className='flex-1'>{t('collections.author')}</span>
                 <a
