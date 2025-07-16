@@ -30,7 +30,7 @@ A simple tool that allows you to generate usable app icons without any design ex
 
 You can use AppIcon Forge directly from GitHub Pages without any installation. Simply visit the following URL:
 
-[AppIcon Forge on GitHub Pages](https://zhangyu1818.github.io/appicon-forge/)
+[AppIcon Forge on GitHub Pages](https://github.com/zongxinYu/appicon-forge/)
 
 If you want to run it locally:
 
@@ -38,7 +38,7 @@ Clone the repository and install dependencies:
 
 ```sh
 # Clone the repository
-git clone https://github.com/zhangyu1818/appicon-forge.git
+git clone https://github.com/zongxinYu/appicon-forge.git
 
 # Navigate to the directory
 cd appicon-forge
@@ -71,7 +71,7 @@ Deploy the contents of the `out` folder to your web server or GitHub Pages.
 
 ```console
 # Clone the repository
-git clone https://github.com/zhangyu1818/appicon-forge.git
+git clone https://github.com/zongxinYu/appicon-forge.git
 
 # Navigate to the directory
 cd appicon-forge

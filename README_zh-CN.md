@@ -30,7 +30,7 @@
 
 你可以不用进行任何安装，而是直接通过 Github Pages 来使用应用图标生成器。直接访问下面这个链接即可：
 
-[AppIcon Forge on GitHub Pages](https://zhangyu1818.github.io/appicon-forge/)
+[AppIcon Forge on GitHub Pages](https://github.com/zongxinYu/appicon-forge/)
 
 如果你想在本地运行：
 
@@ -38,7 +38,7 @@
 
 ```sh
 # 克隆仓库
-git clone https://github.com/zhangyu1818/appicon-forge.git
+git clone https://github.com/zongxinYu/appicon-forge.git
 
 # 进入目录
 cd appicon-forge
@@ -71,7 +71,7 @@ pnpm build
 
 ```console
 # 克隆仓库
-git clone https://github.com/zhangyu1818/appicon-forge.git
+git clone https://github.com/zongxinYu/appicon-forge.git
 
 # 进入目录
 cd appicon-forge
