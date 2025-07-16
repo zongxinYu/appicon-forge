@@ -52,7 +52,7 @@ export function MainContent() {
           </TabsList>
           <Button asChild className='p-4' size='icon' variant='ghost'>
             <a
-              href='https://github.com/zhangyu1818/appicon-forge'
+              href='https://github.com/zongxinYu/appicon-forge'
               rel='noreferrer'
               target='_blank'
             >

@@ -22,7 +22,7 @@ export const IconsGrid = () => {
 
   let content: React.ReactNode = null
 
-  const isSearchQueryValid = /^[a-z]{2,}$/i.test(searchQuery)
+  const isSearchQueryValid = /^[a-z-]{2,}$/i.test(searchQuery)
 
   if (isSearchQueryValid) {
     content = <SearchGrid searchQuery={searchQuery} />
